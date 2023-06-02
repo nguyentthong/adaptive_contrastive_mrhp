@@ -1,7 +1,7 @@
 # Adaptive Contrastive Learning on Multimodal Transformer for Review Helpfulness Predictions
 
-This repository includes the implementation of the paper [Adaptive Contrastive Learning on Multimodal Transformer for Review Helpfulness Predictions
-](https://arxiv.org/abs/2211.03524).
+This repository includes the implementation of the paper [Adaptive Contrastive Learning on Multimodal Transformer for Review Helpfulness Predictions](https://arxiv.org/abs/2211.03524).
+
 Thong Nguyen, Xiaobao Wu, Anh-Tuan Luu, Cong-Duy Nguyen, Zhen Hai, Lidong Bing --- EMNLP 2022
 
 ![Teaser image](./asset/teaser.jpg)
@@ -30,9 +30,11 @@ In this paper, we propose methods to polish representation learning for the Mult
 - prefetch_generator
 
 ## How to Run
-1. To prepare the multimodal datasets of Lazada-MRHP and Amazon-MRHP, we follow the guideline provided here.
+1. To prepare the multimodal datasets of Lazada-MRHP and Amazon-MRHP, we follow the guideline provided [here](https://github.com/jhliu17/MCR/blob/master/scripts/README.md).
 2. Run the following command to execute the training procedure:
-``bash ./scripts/{dataset}/train_{segment}.sh``
+```
+bash ./scripts/{dataset}/train_{segment}.sh
+```
 For example,
     ```
     bash ./scripts/amazon/train_home.sh
